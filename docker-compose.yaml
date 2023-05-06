@@ -1,0 +1,22 @@
+---
+version: '3'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+    working_dir: /var/lib/postgresql
+  golang:
+    image: golang:bullseye
+    container_name: golang
+    working_dir: /go/src
+    tty: true
+    volumes:
+      - ./:/go/src/golang-todo-list
+    ports:
+      - 18080:18080
