@@ -1,1 +1,54 @@
 2023/05/06 14:08:13 main.go:16: test
+2023/05/07 01:56:19 main.go:17: test
+2023/05/07 01:59:14 main.go:17: test
+2023/05/07 02:02:09 main.go:17: test
+2023/05/07 02:03:56 main.go:17: test
+2023/05/07 02:04:57 main.go:17: test
+2023/05/07 02:13:19 main.go:17: test
+2023/05/07 02:14:08 main.go:17: test
+2023/05/07 02:15:43 main.go:17: test
+2023/05/07 02:17:50 base.go:38: dial tcp 127.0.0.1:5432: connect: connection refused
+2023/05/07 02:21:54 base.go:38: pq: password authentication failed for user "postgres,"
+2023/05/07 02:22:17 base.go:38: pq: password authentication failed for user "postgres,"
+2023/05/07 02:22:26 base.go:38: pq: password authentication failed for user "postgres,"
+2023/05/07 02:25:00 base.go:38: pq: password authentication failed for user "postgres,"
+2023/05/07 02:25:56 base.go:38: dial tcp: lookup docker.for.mac.host.internal,: no such host
+2023/05/07 02:26:11 main.go:17: test
+2023/05/07 03:59:52 main.go:17: test
+2023/05/07 03:59:52 users.go:29: sql: database is closed
+2023/05/07 04:00:10 main.go:17: test
+2023/05/07 04:00:10 users.go:29: pq: syntax error at or near "$"
+2023/05/07 04:00:59 main.go:17: test
+2023/05/07 04:00:59 users.go:29: pq: syntax error at or near "%!"
+2023/05/07 04:03:57 main.go:17: test
+2023/05/07 04:03:57 users.go:29: pq: syntax error at or near "%!"
+2023/05/07 04:05:43 main.go:17: test
+2023/05/07 04:05:43 users.go:29: pq: syntax error at or near "%!"
+2023/05/07 04:06:36 main.go:17: test
+2023/05/07 04:06:36 users.go:32: pq: syntax error at or near "%!"
+2023/05/07 04:07:04 main.go:17: test
+2023/05/07 04:07:04 users.go:34: pq: syntax error at or near "%!"
+2023/05/07 04:07:29 main.go:17: test
+2023/05/07 04:07:29 users.go:29: pq: syntax error at or near "%!"
+2023/05/07 04:08:56 main.go:17: test
+2023/05/07 04:08:56 users.go:29: pq: syntax error at or near "%!"
+2023/05/07 04:11:10 main.go:17: test
+2023/05/07 04:11:10 users.go:29: pq: syntax error at or near "%!"
+2023/05/07 04:11:19 main.go:17: test
+2023/05/07 04:11:19 users.go:29: pq: syntax error at or near "%!"
+2023/05/07 04:12:24 main.go:17: test
+2023/05/07 04:12:24 users.go:35: pq: syntax error at or near "%!"
+2023/05/07 04:18:19 main.go:17: test
+2023/05/07 04:18:19 users.go:35: pq: syntax error at or near "%!"
+2023/05/07 04:18:50 main.go:17: test
+2023/05/07 04:18:50 users.go:35: pq: syntax error at or near "%!"
+2023/05/07 04:19:01 main.go:17: test
+2023/05/07 04:19:01 users.go:35: pq: syntax error at or near "%!"
+2023/05/07 04:20:36 main.go:17: test
+2023/05/07 04:20:36 users.go:35: pq: syntax error at or near "%!"
+2023/05/07 04:35:30 main.go:17: test
+2023/05/07 04:35:30 users.go:34: pq: syntax error at or near "%!"
+2023/05/07 08:08:29 main.go:17: test
+2023/05/07 08:08:29 users.go:35: pq: syntax error at or near "%!"
+2023/05/07 08:10:03 main.go:17: test
+2023/05/07 08:16:22 main.go:17: test
