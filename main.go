@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	// "log"
 
 	"golang-todo-list/app/models"
@@ -46,9 +46,7 @@ func main() {
 	user11.DeleteUser()
 
 	user11, _ = models.GetUser(1)
-	*/
-	/* ToDo Listを作成するための処理開始 */
-	/*
+
 	user02 := &models.User{}
 	user02.Name = "test02"
 	user02.Email = "test02@gmail.com"
@@ -56,13 +54,13 @@ func main() {
 
 	fmt.Println(user02)
 
-	user01.CreateUser()
+	user02.CreateUser()
 
 	user22, _ := models.GetUser(2)
 	user22.CreateTodo("First Todo")
 
 	todo01, _ := models.GetTodo(1)
-	*/
+	
 	user22, _ := models.GetUser(2)
 	user22.CreateTodo("Second Todo")
 
@@ -70,4 +68,29 @@ func main() {
 	for _, v := range todos {
 		fmt.Println(v)
 	}
+	
+	user03 := &models.User{}
+	user03.Name = "test03"
+	user03.Email = "test03@gmail.com"
+	user03.PassWord = "test03"
+
+	fmt.Println(user03)
+
+	user03.CreateUser()
+
+	user23, _ := models.GetUser(3)
+	user23.CreateTodo("Third Todo")
+
+	user22, _ := models.GetUser(2)
+	todos, _ := user22.GetTodosByUser()
+	for _, v := range todos {
+		fmt.Println(v)
+	}
+	*/
+
+	todo01, _ := models.GetTodo(1)
+	todo01.Content = "Update Todo"
+	todo01.UpdateTodo()
+
+	todo01.DeleteTodo()
 }
