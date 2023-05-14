@@ -52,3 +52,11 @@
 2023/05/07 08:08:29 users.go:35: pq: syntax error at or near "%!"
 2023/05/07 08:10:03 main.go:17: test
 2023/05/07 08:16:22 main.go:17: test
+2023/05/14 02:09:47 main.go:17: test
+2023/05/14 02:17:18 main.go:17: test
+2023/05/14 02:17:18 users.go:60: pq: syntax error at or near "WHERE"
+2023/05/14 02:17:42 main.go:17: test
+2023/05/14 02:20:13 main.go:17: test
+2023/05/14 02:20:51 main.go:17: test
+2023/05/14 02:20:51 users.go:60: pq: syntax error at or near "$"
+2023/05/14 02:21:32 main.go:17: test
