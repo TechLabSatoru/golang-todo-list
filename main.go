@@ -1,17 +1,19 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 	// "log"
 
 	"golang-todo-list/app/models"
+	"golang-todo-list/app/controllers"
 	// "golang-todo-list/config"
 )
 
 func main() {
-	/*
 	fmt.Println(models.Db)
 
+	controllers.StartMainServer()
+	/*
 	fmt.Println(config.Config.Port)
 	fmt.Println(config.Config.SQLDriver)
 	fmt.Println(config.Config.DbName)
@@ -86,11 +88,11 @@ func main() {
 	for _, v := range todos {
 		fmt.Println(v)
 	}
-	*/
 
 	todo01, _ := models.GetTodo(1)
 	todo01.Content = "Update Todo"
 	todo01.UpdateTodo()
 
 	todo01.DeleteTodo()
+	*/
 }
