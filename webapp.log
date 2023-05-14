@@ -60,3 +60,8 @@
 2023/05/14 02:20:51 main.go:17: test
 2023/05/14 02:20:51 users.go:60: pq: syntax error at or near "$"
 2023/05/14 02:21:32 main.go:17: test
+2023/05/14 02:50:55 main.go:19: test
+2023/05/14 03:05:18 main.go:19: test
+2023/05/14 03:06:52 main.go:19: test
+2023/05/14 03:07:07 main.go:19: test
+2023/05/14 03:10:23 main.go:19: test

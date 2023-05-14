@@ -12,7 +12,7 @@ $ psql -h localhost -U postgres -d postgres
 
 postgres=# 
 
-$ docker compose down 
+$ docker compose down --rmi all --volumes --remove-orphans
 ```
 
 - Golangの場合
@@ -26,5 +26,5 @@ $ docker compose exec -it golang
 $ cd golang-todo-list
 $ go run main.go
 
-$ docker compose down 
+$ docker compose down --rmi all --volumes --remove-orphans
 ```
